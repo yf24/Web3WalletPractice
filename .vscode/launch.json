@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Web3WalletParctice.app",
+        "type": "sweetpad-lldb",
+        "request": "launch",
+        "program": "${env:HOME}/Library/Developer/Xcode/DerivedData/Web3WalletParctice-*/Build/Products/Debug/Web3WalletParctice.app/Contents/MacOS/Web3WalletParctice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "sweetpad: debuging-launch"
+      }
+    ]
+  }
+  
